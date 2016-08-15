@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
-public class Dashboard {
+public class Dashboard implements Observer {
     protected ExecutorService executor = Executors.newSingleThreadExecutor();
     private final String SEPARATOR = "____________________";
     private List<Table> tables;
@@ -51,5 +51,10 @@ public class Dashboard {
 
     public void shutdown() {
         executor.shutdownNow();
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
+        render();
     }
 }

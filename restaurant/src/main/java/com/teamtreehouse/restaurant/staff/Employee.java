@@ -2,10 +2,11 @@ package com.teamtreehouse.restaurant.staff;
 
 import com.teamtreehouse.restaurant.tools.Dashboard;
 
+import java.util.Observer;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public abstract class Employee {
+public abstract class Employee implements Observer {
     protected boolean isAvailable;
     protected String name;
     protected ExecutorService executor = Executors.newSingleThreadExecutor();

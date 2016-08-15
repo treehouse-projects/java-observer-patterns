@@ -1,6 +1,8 @@
 package com.teamtreehouse.restaurant.tables;
 
-public class Table {
+import java.util.Observable;
+
+public class Table extends Observable {
     private Status status;
     private int positionNumber;
     private int numSeats;
@@ -21,6 +23,9 @@ public class Table {
 
     public void setStatus(Status newStatus) {
         status = newStatus;
+
+        setChanged();
+        notifyObservers(newStatus);
     }
 
     public Status getStatus() {
