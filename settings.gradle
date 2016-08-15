@@ -1,0 +1,3 @@
+rootProject.name = 'observer-pattern-use-cases'
+include 'restaurant'
+

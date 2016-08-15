@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases.iml" filepath="$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases_main.iml" filepath="$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases_main.iml" group="observer-pattern-use-cases" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases_test.iml" filepath="$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases_test.iml" group="observer-pattern-use-cases" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restaurant/restaurant.iml" filepath="$PROJECT_DIR$/.idea/modules/restaurant/restaurant.iml" group="restaurant" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restaurant/restaurant_main.iml" filepath="$PROJECT_DIR$/.idea/modules/restaurant/restaurant_main.iml" group="restaurant" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restaurant/restaurant_test.iml" filepath="$PROJECT_DIR$/.idea/modules/restaurant/restaurant_test.iml" group="restaurant" />
+    </modules>
+  </component>
+</project>
