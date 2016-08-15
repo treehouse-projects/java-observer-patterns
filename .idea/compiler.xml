@@ -23,6 +23,8 @@
       <module name="observer-pattern-use-cases_test" target="1.8" />
       <module name="restaurant_main" target="1.8" />
       <module name="restaurant_test" target="1.8" />
+      <module name="universal-remote_main" target="1.8" />
+      <module name="universal-remote_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

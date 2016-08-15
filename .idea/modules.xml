@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/restaurant/restaurant.iml" filepath="$PROJECT_DIR$/.idea/modules/restaurant/restaurant.iml" group="restaurant" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/restaurant/restaurant_main.iml" filepath="$PROJECT_DIR$/.idea/modules/restaurant/restaurant_main.iml" group="restaurant" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/restaurant/restaurant_test.iml" filepath="$PROJECT_DIR$/.idea/modules/restaurant/restaurant_test.iml" group="restaurant" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/universal-remote/universal-remote.iml" filepath="$PROJECT_DIR$/.idea/modules/universal-remote/universal-remote.iml" group="universal-remote" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/universal-remote/universal-remote_main.iml" filepath="$PROJECT_DIR$/.idea/modules/universal-remote/universal-remote_main.iml" group="universal-remote" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/universal-remote/universal-remote_test.iml" filepath="$PROJECT_DIR$/.idea/modules/universal-remote/universal-remote_test.iml" group="universal-remote" />
     </modules>
   </component>
 </project>
