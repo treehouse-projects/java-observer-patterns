@@ -72,5 +72,6 @@ public class Simulator {
         System.out.println("Closing up shop");
         servers.forEach(Server::clockOut);
         assistants.forEach(Assistant::clockOut);
+        dashboard.shutdown();
     }
 }

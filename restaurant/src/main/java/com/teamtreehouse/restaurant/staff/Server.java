@@ -14,10 +14,10 @@ public class Server extends Employee {
 
     public void leadToTable(Table table) {
         performTask(() -> {
+            table.setStatus(Status.OCCUPIED);
             announce("Hi I'm %s, and I'll be your server. Follow me to your table (#%d)",
                     name,
                     table.getPositionNumber());
-            table.setStatus(Status.OCCUPIED);
             passTime(2);
             announce("Here are your menus (#%d)", table.getPositionNumber());
         });

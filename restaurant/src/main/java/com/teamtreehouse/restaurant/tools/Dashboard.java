@@ -48,4 +48,8 @@ public class Dashboard {
             System.out.println();
         });
     }
+
+    public void shutdown() {
+        executor.shutdownNow();
+    }
 }
