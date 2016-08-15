@@ -1,20 +1,23 @@
 package com.teamtreehouse.remote;
 
 import com.teamtreehouse.remote.devices.BluRayPlayer;
+import com.teamtreehouse.remote.devices.Device;
 import com.teamtreehouse.remote.devices.Stereo;
 
-public class RemoteControl {
-    private BluRayPlayer bluRayPlayer;
-    private Stereo stereo;
+import java.util.ArrayList;
+import java.util.List;
 
-    public RemoteControl(BluRayPlayer bluRayPlayer, Stereo stereo) {
-        this.bluRayPlayer = bluRayPlayer;
-        this.stereo = stereo;
+public class RemoteControl {
+    private List<Device> devices = new ArrayList<>();
+
+    public void addDevice(Device device) {
+        devices.add(device);
     }
 
     public void pressPowerButton() {
-        bluRayPlayer.togglePower();
-        stereo.togglePower();
+        for (Device device : devices) {
+            device.togglePower();
+        }
     }
 
 }
