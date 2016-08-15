@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gold-watcher/gold-watcher.iml" filepath="$PROJECT_DIR$/.idea/modules/gold-watcher/gold-watcher.iml" group="gold-watcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gold-watcher/gold-watcher_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gold-watcher/gold-watcher_main.iml" group="gold-watcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gold-watcher/gold-watcher_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gold-watcher/gold-watcher_test.iml" group="gold-watcher" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases.iml" filepath="$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases_main.iml" filepath="$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases_main.iml" group="observer-pattern-use-cases" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases_test.iml" filepath="$PROJECT_DIR$/.idea/modules/observer-pattern-use-cases_test.iml" group="observer-pattern-use-cases" />

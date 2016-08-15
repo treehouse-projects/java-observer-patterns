@@ -1,4 +1,5 @@
 rootProject.name = 'observer-pattern-use-cases'
 include 'restaurant'
 include 'universal-remote'
+include 'gold-watcher'
 

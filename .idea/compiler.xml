@@ -19,6 +19,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gold-watcher_main" target="1.5" />
+      <module name="gold-watcher_test" target="1.5" />
       <module name="observer-pattern-use-cases_main" target="1.8" />
       <module name="observer-pattern-use-cases_test" target="1.8" />
       <module name="restaurant_main" target="1.8" />
